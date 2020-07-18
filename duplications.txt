@@ -1,0 +1,17 @@
+4
+red
+green
+dodgerblue
+yellow
+5  4 c2 c3
+6  2 c3 c4
+7  2 c3 c4 m5
+8  4 c3 c6 m7
+9  3 c2 c8
+10 2 c3 c9 c4
+11 2 m3 c4 c9
+12 4 c3 m6 m10
+13 3 c5 m7 c10
+14 3 m5 m6 m12
+15 4 c3 m11
+16 3 m4 m8 m10 c15

@@ -1,0 +1,10 @@
+5
+#fb9a99
+#a6cee3
+#1f78b4
+#b2df8a
+#33a02c
+6  2  m1 c3 c4 c5
+7  4  c1 c3 c5 m6
+8  3  c1 c5 m6 m7
+9  5  c2 m6 m7 m8
