@@ -20,6 +20,7 @@ Linear version
 
 Logarithmic version
 
+![](gif_directory/logarithmic_version.gif)
 
 ##Technologies
 
