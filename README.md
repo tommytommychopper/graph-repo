@@ -2,6 +2,10 @@
 
 ## Descriptions
 This project is inspired by https://www.cs.usfca.edu/~galles/visualization/Algorithms.html.
+
+![](gif_directory/binary_search.gif)
+
+
 My script will create many individual GIF images based on a text file describing nodes, edges, and their attributes, then they will be combined into a single animated GIF.
 
 ## How to run 
