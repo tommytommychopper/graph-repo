@@ -7,10 +7,10 @@ My script will create many individual GIF images based on a text file describing
 ## How to run 
 Python3 anime.py duplications.txt (linear|logarithmic) anime.gif
 
-anime.py -- script
-duplications.txt -- text file describing nodes, edges, and their attributes
-linear|logarithmic -- select either linear or logarithmic to specify how you want nodes will be moved. 
-anim.gif -- name of the newly created gif
+anime.py -- script  <br />
+duplications.txt -- text file describing nodes, edges, and their attributes <br />
+linear|logarithmic -- select either linear or logarithmic to specify how you want nodes will be moved.  <br />
+anim.gif -- name of the newly created gif <br />
 
 Also, you need to create directory named "gifdir" to store many individual GIF images.
 
