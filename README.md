@@ -16,7 +16,7 @@ ex)duplications.txt
 Linear version 
 
 
-![](linear_version.gif)
+![](gif_directory/linear_version.gif)
 
 Logarithmic version
 
