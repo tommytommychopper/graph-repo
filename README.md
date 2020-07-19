@@ -5,7 +5,6 @@ This project is inspired by https://www.cs.usfca.edu/~galles/visualization/Algor
 My script will create many individual GIF images based on a text file describing nodes, edges, and their attributes, then they will be combined into a single animated GIF.
 
 ## How to run 
-
 ./anime.py duplications.txt (linear|logarithmic) anim.gif
 
 You need to select either linear or logarithmic to specify how nodes will be  moved. 
@@ -22,8 +21,7 @@ Logarithmic version
 
 ![](gif_directory/logarithmic_version.gif)
 
-##Technologies
-
+## Technologies
 -pyGraphviz
 -gifsicle
 
