@@ -16,7 +16,7 @@ ex)duplications.txt
 Linear version 
 
 
-<a href="https://imgflip.com/gif/48qpfl"><img src="https://imgflip.com/gif/48qpfl" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/48qpfl"><img src="https://imgflip.com/gif/48qpfl.gif"></a>
 
 Logarithmic version
 
