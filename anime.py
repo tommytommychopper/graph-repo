@@ -51,8 +51,6 @@ with open(sys.argv[1],'r') as f:
     total_num_node = G.number_of_nodes()
     for i in range(1, total_num_node+1):
         coordinates.append(G.get_node(i).attr['pos'])
-        #print(f'{i} : {G.get_node(i).attr["pos"]}')
-    #Part 2
     f.seek(0)
     elist.clear()
     size = int(f.readline())
@@ -103,18 +101,13 @@ with open(sys.argv[1],'r') as f:
 
         if sys.argv[2] == 'linear':
             for i in range(1, 11):
-                #print(f'{i} : ({x_parent}, {y_parent})')
                 G.get_node(progeny).attr['pos']= str(x_parent) + "," + str(y_parent)
                 G.draw('gifdir/%03dfile.gif'% (counter), prog='neato', args='-n2')
-                #draw_counter += 1
-                #print(f"{progeny} is drown")
                 counter += 1 
                 x_parent = x_parent + (delta_x/10)
                 y_parent = y_parent + (delta_y/10)
-                #print(f'{i} : ({x_parent}, {y_parent})')
         elif sys.argv[2] == 'logarithmic':
             for i in range(1, 11):
-                #G.get_node(progeny).attr['pos'] = str(x_parent+delta_x*(1-math.log10(11-i))) + "," + str(y_parent+delta_y*(1-math.log10(11-i)))
                 G.get_node(progeny).attr['pos'] = str(x_parent+delta_x*(1-math.log10(11-i))) + "," + str(y_parent+delta_y*(1-math.log10(11-i)))
                 G.draw('gifdir/%03dfile.gif'% (counter), prog='neato', args='-n2')
                 draw_counter += 1
