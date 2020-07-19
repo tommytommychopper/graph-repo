@@ -2,12 +2,16 @@
 
 ## Descriptions
 This project is inspired by https://www.cs.usfca.edu/~galles/visualization/Algorithms.html.
+
+![](gif_directory/binary_search.gif)
+
+
 My script will create many individual GIF images based on a text file describing nodes, edges, and their attributes, then they will be combined into a single animated GIF.
 
 ## How to run 
 Python3 anime.py duplications.txt (linear|logarithmic) anime.gif
 
-anime.py -- script  <br />
+anime.py -- python script  <br />
 duplications.txt -- text file describing nodes, edges, and their attributes <br />
 linear|logarithmic -- select either linear or logarithmic to specify how you want nodes will be moved  <br />
 anim.gif -- name of the newly created gif <br />
