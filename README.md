@@ -30,6 +30,6 @@ Logarithmic version
 ![](gif_directory/logarithmic_version.gif)
 
 ## Technologies
-- pyGraphviz
-- gifsicle
+- PyGraphviz
+- Gifsicle
 
